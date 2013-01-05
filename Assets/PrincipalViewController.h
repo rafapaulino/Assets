@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AssetsLibrary/AssetsLibrary.h>
 
 @interface PrincipalViewController : UIViewController
+
+@property (nonatomic, weak) IBOutlet UIImageView *imagem;
+@property (nonatomic, weak) IBOutlet UIStepper *seletor;
+
+-(IBAction)trocarFoto:(id)sender;
 
 @end

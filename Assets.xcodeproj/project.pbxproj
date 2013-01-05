@@ -20,6 +20,7 @@
 		6A1E9BE7160CB3F6003B5D8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1E9BC8160CB3F6003B5D8B /* Foundation.framework */; };
 		6A1E9BEF160CB3F6003B5D8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1E9BED160CB3F6003B5D8B /* InfoPlist.strings */; };
 		6A1E9BF2160CB3F6003B5D8B /* AssetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1E9BF1160CB3F6003B5D8B /* AssetsTests.m */; };
+		6A1E9BFC160CB4A5003B5D8B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1E9BFB160CB4A5003B5D8B /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		6A1E9BEE160CB3F6003B5D8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A1E9BF0160CB3F6003B5D8B /* AssetsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetsTests.h; sourceTree = "<group>"; };
 		6A1E9BF1160CB3F6003B5D8B /* AssetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetsTests.m; sourceTree = "<group>"; };
+		6A1E9BFB160CB4A5003B5D8B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A1E9BFC160CB4A5003B5D8B /* AssetsLibrary.framework in Frameworks */,
 				6A1E9BC7160CB3F6003B5D8B /* UIKit.framework in Frameworks */,
 				6A1E9BC9160CB3F6003B5D8B /* Foundation.framework in Frameworks */,
 				6A1E9BCB160CB3F6003B5D8B /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +84,7 @@
 		6A1E9BB7160CB3F6003B5D8B = {
 			isa = PBXGroup;
 			children = (
+				6A1E9BFB160CB4A5003B5D8B /* AssetsLibrary.framework */,
 				6A1E9BCC160CB3F6003B5D8B /* Assets */,
 				6A1E9BEA160CB3F6003B5D8B /* AssetsTests */,
 				6A1E9BC5160CB3F6003B5D8B /* Frameworks */,
